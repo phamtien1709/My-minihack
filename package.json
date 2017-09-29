@@ -1,0 +1,25 @@
+{
+  "name": "minihackweb8",
+  "version": "1.0.0",
+  "description": "my-minihack",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.0",
+    "nodemon": "^1.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "aa",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phamtien1709/My-minihack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phamtien1709/My-minihack/issues"
+  },
+  "homepage": "https://github.com/phamtien1709/My-minihack#readme"
+}
