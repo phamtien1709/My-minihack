@@ -1,4 +1,5 @@
 const express = require('express');
+const handlebars = require('express-handlebars');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const config = require('./config.json');
@@ -15,6 +16,8 @@ mongoose.connect(config.connectionString, (err) => {
   }
 });
 
+app.engine('handlebars', handlebars({defaultLayout: 'main'}));
+app.set('view engine', 'handlebars');
 app.use(bodyParser.urlencoded({ extended: true}));
 
 app.use('/', homeRouter);
