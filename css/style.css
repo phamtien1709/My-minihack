@@ -1,0 +1,37 @@
+/* #gameDiv {
+    width: 377px; 
+    height: 670px; 
+    cursor: inherit; 
+    margin-left: 349px; 
+    margin-right: -348px;
+} */
+body{
+    width: 30%;
+    height: 100vh;
+}
+#time-minutes{
+    position: absolute;
+    left: 45%;
+    top: 16%;
+    width: 30px;
+    height: 30px;
+}
+#time-seconds{
+    position: absolute;
+    left: 60%;
+    top: 16%;
+    width: 30px;
+    height: 30px;
+}
+#rhynthm {
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    width: 30px;
+    height: 30px;
+}
+#form{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}

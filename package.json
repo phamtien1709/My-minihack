@@ -1,25 +1,15 @@
 {
-  "name": "minihackweb8",
+  "name": "propotypepiano",
   "version": "1.0.0",
-  "description": "my-minihack",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.16.0",
-    "nodemon": "^1.12.1"
-  },
-  "devDependencies": {},
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "aa",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/phamtien1709/My-minihack.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/phamtien1709/My-minihack/issues"
-  },
-  "homepage": "https://github.com/phamtien1709/My-minihack#readme"
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.14.12"
+  }
 }
